@@ -1,5 +1,4 @@
-# .readthedocs.yml
-version: 2
+version: 2.1
 
 build:
   os: ubuntu-22.04
