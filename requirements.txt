@@ -1,3 +1,3 @@
 sphinx
-sphinx_rtd_theme
-myst-parser  # only if using Markdown files (.md)
+furo
+myst-parser  # if you're using Markdown
