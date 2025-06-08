@@ -1,23 +1,27 @@
-# conf.py
+# docs/conf.py
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))  # so Sphinx can find your Python code
+sys.path.insert(0, os.path.abspath('..'))
 
 project = 'river-help'
-copyright = '2025, River Games'
-author = 'River Games'
-
+author = 'Your Name'
 release = '0.1.0'
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'myst_parser',  # only if you're using .md files
+    'myst_parser',  # if you're using Markdown
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_theme = 'sphinx_rtd_theme'
+# ✨ Set the Furo theme
+html_theme = 'furo'
+
+# (Optional) Custom logo and favicon
+# html_logo = '_static/logo.png'
+# html_favicon = '_static/favicon.ico'
+
 html_static_path = ['_static']
