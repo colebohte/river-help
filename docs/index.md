@@ -2,6 +2,7 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: Tank Ball Physics
+:caption: Contents
 
-Tank Ball Physics/Experiments/CCode Console
+test.md
+Tank Ball Physics/index.md
