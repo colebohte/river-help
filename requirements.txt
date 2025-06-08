@@ -1,2 +1,3 @@
 sphinx
-myst-parser  # if you're using Markdown instead of .rst
+sphinx_rtd_theme
+myst-parser  # only if using Markdown files (.md)
