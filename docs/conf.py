@@ -11,14 +11,13 @@ author = 'River Games'
 release = '0.1.0'
 
 extensions = [
-    'sphinx.ext.autodoc',      # Automatically documents from docstrings
-    'sphinx.ext.napoleon',     # Supports Google/NumPy docstring formats
-    'myst_parser',             # Enables Markdown support (optional but useful)
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'myst_parser',  # only if you're using .md files
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-# HTML output options
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
