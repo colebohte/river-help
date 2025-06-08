@@ -1,0 +1,2 @@
+sphinx
+myst-parser  # if you're using Markdown instead of .rst
